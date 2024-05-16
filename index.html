@@ -6,11 +6,12 @@
     <title>Sandra Milena Alvarado Pérez - Página Personal</title>
     <style>
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
+            line-height: 1.6;
         }
         header {
             background-color: #2c3e50;
@@ -28,6 +29,7 @@
             color: white;
             margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
         }
         section {
             padding: 20px;
@@ -43,6 +45,14 @@
             bottom: 0;
             width: 100%;
         }
+        .experience, .education, .certifications {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +65,9 @@
         <a href="#sobre-mi">Sobre Mí</a>
         <a href="#experiencia">Experiencia</a>
         <a href="#habilidades">Habilidades</a>
-        <a href="#blog">Blog</a>
+        <a href="#educacion">Educación</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#idiomas">Idiomas</a>
         <a href="#contacto">Contacto</a>
     </nav>
     <section id="inicio">
@@ -65,18 +77,13 @@
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
         <p>Con formación en derecho y psicología, tengo una amplia experiencia en asesoramiento legal y apoyo psicológico. Mi objetivo es utilizar mis conocimientos para ayudar a las personas en sus momentos más difíciles.</p>
-        <h3>Formación Académica</h3>
-        <ul>
-            <li>Licenciatura en Derecho - Universidad XYZ</li>
-            <li>Licenciatura en Psicología - Universidad ABC</li>
-        </ul>
     </section>
-    <section id="experiencia">
+    <section id="experiencia" class="experience">
         <h2>Experiencia Profesional</h2>
         <h3>Abogada en Empresa 1</h3>
-        <p>Descripción de responsabilidades y logros.</p>
+        <p>Descripción de responsabilidades y logros específicos en Empresa 1.</p>
         <h3>Psicóloga en Clínica 2</h3>
-        <p>Descripción de responsabilidades y logros.</p>
+        <p>Descripción de responsabilidades y logros específicos en Clínica 2.</p>
     </section>
     <section id="habilidades">
         <h2>Habilidades</h2>
@@ -88,9 +95,27 @@
             <li>Resolución de conflictos</li>
         </ul>
     </section>
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Próximamente, compartiré artículos sobre derecho y psicología, donde abordaré temas actuales y compartiré mi experiencia y conocimientos.</p>
+    <section id="educacion" class="education">
+        <h2>Educación</h2>
+        <h3>Licenciatura en Derecho</h3>
+        <p>Universidad XYZ, Año de graduación</p>
+        <h3>Licenciatura en Psicología</h3>
+        <p>Universidad ABC, Año de graduación</p>
+    </section>
+    <section id="certificaciones" class="certifications">
+        <h2>Certificaciones</h2>
+        <ul>
+            <li>Certificación en Mediación</li>
+            <li>Certificación en Psicología Clínica</li>
+            <li>Certificación en Derecho Digital</li>
+        </ul>
+    </section>
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Español: Nativo</li>
+            <li>Inglés: Avanzado</li>
+        </ul>
     </section>
     <section id="contacto">
         <h2>Contacto</h2>
