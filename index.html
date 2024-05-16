@@ -11,7 +11,6 @@
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
-            line-height: 1.6;
         }
         header {
             background-color: #2c3e50;
@@ -20,10 +19,9 @@
             text-align: center;
         }
         nav {
-            margin: 0;
-            padding: 10px;
             text-align: center;
             background-color: #34495e;
+            padding: 10px;
         }
         nav a {
             color: white;
@@ -41,17 +39,20 @@
             padding: 10px 0;
             background-color: #2c3e50;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .experience, .education, .certifications {
-            margin-bottom: 20px;
         }
         h2 {
             color: #2c3e50;
             border-bottom: 2px solid #e74c3c;
             padding-bottom: 5px;
+        }
+        .experience, .education, .certifications, .languages, .skills {
+            margin-bottom: 20px;
+        }
+        .experience h3, .education h3, .certifications h3, .languages h3, .skills h3 {
+            margin: 10px 0;
+        }
+        .experience p, .education p, .certifications p, .languages p, .skills p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -64,9 +65,9 @@
         <a href="#inicio">Inicio</a>
         <a href="#sobre-mi">Sobre Mí</a>
         <a href="#experiencia">Experiencia</a>
-        <a href="#habilidades">Habilidades</a>
         <a href="#educacion">Educación</a>
         <a href="#certificaciones">Certificaciones</a>
+        <a href="#habilidades">Habilidades</a>
         <a href="#idiomas">Idiomas</a>
         <a href="#contacto">Contacto</a>
     </nav>
@@ -76,16 +77,40 @@
     </section>
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
-        <p>Con formación en derecho y psicología, tengo una amplia experiencia en asesoramiento legal y apoyo psicológico. Mi objetivo es utilizar mis conocimientos para ayudar a las personas en sus momentos más difíciles.</p>
+        <p>Abogada y Psicóloga, experta en relacionamiento político con 14 años de experiencia en el campo del Derecho Penal y tres años dedicada al énfasis en la Gobernanza, la Transparencia y el Gobierno Abierto asociado a la Rama Legislativa desde la Cámara de Representantes. Adquiriendo, en los cargos en los que me he desempeñado competencias de dirección y coordinación tales como: planeación y trabajo en equipo, habilidades analíticas e investigativas, creatividad, perseverancia, lenguaje claro y efectivo, atención al detalle, capacidad para el aprendizaje, control de recursos y capacidad de adaptación.</p>
     </section>
     <section id="experiencia" class="experience">
         <h2>Experiencia Profesional</h2>
-        <h3>Abogada en Empresa 1</h3>
-        <p>Descripción de responsabilidades y logros específicos en Empresa 1.</p>
-        <h3>Psicóloga en Clínica 2</h3>
-        <p>Descripción de responsabilidades y logros específicos en Clínica 2.</p>
+        <h3>Consultora (2019 - Presente)</h3>
+        <p>Investigación, estructuración, desarrollo e implementación de tecnologías y herramientas para diversos proyectos legales y empresariales. Análisis de políticas públicas, comprensión y aplicación de la legislación vigente, planificación y ejecución de campañas políticas, planes de acción, estructuración y desarrollo de negocios, estrategias de comunicación, desarrollo de políticas e implementación de iniciativas sociales y comunitarias.</p>
+        <h3>Gerente, Grupo SOKAN (2021 - Presente)</h3>
+        <p>Generar operaciones diversas en múltiples industrias, enfocándonos en la innovación, la calidad y satisfacer las necesidades de un mercado dinámico.</p>
+        <h3>Asesora, Secretaria General de la Cámara de Representantes, Bogotá (Primer semestre 2022)</h3>
+        <p>Elaborar en el marco del Modelo Integrado de Planeación y Gestión, con el apoyo de la Oficina de Planeación y Sistemas, el levantamiento, diseño y aprobación de los procedimientos correspondientes a las siguientes actividades e insumos: Informes de gestión de los Honorables Representantes, Perfiles de los Honorables Representantes, Declaración de Bienes y Renta de los Honorables Representantes, Informes de Rendición de Cuentas de la Rama Ejecutiva al Congreso.</p>
+        <h3>Gerente de campaña, Cámara de Representante, Antioquia (2022)</h3>
+        <h3>Asesora, Presidencia de la Cámara de Representantes, Bogotá (Segundo semestre 2021)</h3>
+        <p>Diseñar el Plan Congreso Abierto y Transparente, estableciendo las mesas, indicadores, responsables, actividades y objetivos, a través de mesas de trabajo con los diferentes actores interesados.</p>
+        <!-- Agrega más experiencia laboral según el PDF -->
     </section>
-    <section id="habilidades">
+    <section id="educacion" class="education">
+        <h2>Educación</h2>
+        <h3>Abogada, Universidad de Medellín, Medellín (2007)</h3>
+        <p>T.P. 159462</p>
+        <h3>Psicóloga, Universidad Católica del Norte, Medellín (2007)</h3>
+        <p>T.P. 190022</p>
+        <h3>Maestría en Gestión de Recursos Humanos, Universidad Carlos III de Madrid (2008)</h3>
+        <h3>Maestría en Psicología del Trabajo y Organizaciones y Gestión de Recursos Humanos, Universidad Complutense de Madrid (2008)</h3>
+        <h3>Ph.D. (c) en Psicología, Universidad Complutense de Madrid (Suspendido en etapa de investigación)</h3>
+    </section>
+    <section id="certificaciones" class="certifications">
+        <h2>Certificaciones</h2>
+        <ul>
+            <li>Coaching Ontológico, ICF International Coach Federation (2016)</li>
+            <li>Auditor Interno Estándar NTC - OHSAS 18001: 2007, Universidad CES (2014)</li>
+            <!-- Agrega más certificaciones según el PDF -->
+        </ul>
+    </section>
+    <section id="habilidades" class="skills">
         <h2>Habilidades</h2>
         <ul>
             <li>Derecho digital</li>
@@ -93,24 +118,10 @@
             <li>Asesoramiento psicológico remoto</li>
             <li>Comunicación efectiva</li>
             <li>Resolución de conflictos</li>
+            <!-- Agrega más habilidades según el PDF -->
         </ul>
     </section>
-    <section id="educacion" class="education">
-        <h2>Educación</h2>
-        <h3>Licenciatura en Derecho</h3>
-        <p>Universidad XYZ, Año de graduación</p>
-        <h3>Licenciatura en Psicología</h3>
-        <p>Universidad ABC, Año de graduación</p>
-    </section>
-    <section id="certificaciones" class="certifications">
-        <h2>Certificaciones</h2>
-        <ul>
-            <li>Certificación en Mediación</li>
-            <li>Certificación en Psicología Clínica</li>
-            <li>Certificación en Derecho Digital</li>
-        </ul>
-    </section>
-    <section id="idiomas">
+    <section id="idiomas" class="languages">
         <h2>Idiomas</h2>
         <ul>
             <li>Español: Nativo</li>
@@ -119,16 +130,11 @@
     </section>
     <section id="contacto">
         <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-            <input type="submit" value="Enviar">
-        </form>
-        <p>Sígueme en <a href="https://www.linkedin.com/in/sandramilenalvarado" target="_blank">LinkedIn</a></p>
+        <p>Medellín, Colombia</p>
+        <p>Tel: +57 3006098368</p>
+        <p>Email: smalvaradop@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sandra-milena-alvarado" target="_blank">Perfil de LinkedIn</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/smalvaradop" target="_blank">Perfil de Facebook</a></p>
     </section>
     <footer>
         <p>&copy; 2024 Sandra Milena Alvarado Pérez. Todos los derechos reservados.</p>
